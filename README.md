@@ -1,4 +1,4 @@
-# trukos-caprover
+# Tips CapRover
 
 https://caprover.com/docs/get-started.html
  
