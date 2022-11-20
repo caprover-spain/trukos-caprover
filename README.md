@@ -4,6 +4,7 @@ https://caprover.com/docs/get-started.html
  
 # Install CapRover
 ```
+ufw allow 80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;
 apt  install docker.io
 docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock -v /captain:/captain caprover/caprover
 npm i -g caprover
