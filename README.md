@@ -13,3 +13,10 @@ docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/doc
 $ docker stop $(docker ps -a -q)
 $ docker rm $(docker ps -a -q)
 ```
+
+```
+$ docker build -t mfalconsoft/caprover-nodejs .
+$ docker push mfalconsoft/caprover-nodejs
+$ docker images
+$ docker run -d -p 3000:3000 mfalconsoft/caprover-nodejs
+```
