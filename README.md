@@ -28,4 +28,5 @@ $ docker run -d -p 3000:3000 mfalconsoft/caprover-nodejs
 # Listar volumenes
 ```
 docker volume ls
+	/var/lib/docker/volumes/captain--odoo13-config/_data
 ```
