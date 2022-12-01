@@ -16,6 +16,9 @@ caprover serversetup
 ```
 $ docker stop $(docker ps -a -q)
 $ docker rm $(docker ps -a -q)
+
+$ docker service rm $(docker service ls -q)
+$ docker swarm leave --force
 ```
 
 ```
