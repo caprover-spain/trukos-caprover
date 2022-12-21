@@ -1,7 +1,12 @@
 # Tips CapRover
 
 https://caprover.com/docs/get-started.html
- 
+
+# Actualizamos el sistema
+```
+apt-get update && apt-get upgrade -y
+```
+
 # Install CapRover
 ```
 ufw allow 80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;
